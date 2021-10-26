@@ -1,8 +1,17 @@
-NumeroA =prompt("Primer número a Comparar: ");
-NumeroA=parseFloat(NumeroA);     //Se debe pasar a entero, del prompt viene como String
+do{
+    NumeroA =prompt("Primer número a Comparar: ");
+}while (isNaN(NumeroA));
 
-NumeroB =prompt("Segundo número a comparar: ");
+do{
+    NumeroB =prompt("Segundo número a comparar: ");
+}while (isNaN(NumeroB));
+
+
+
+NumeroA=parseFloat(NumeroA);     //Se debe pasar a entero, del prompt viene como String
 NumeroB=parseFloat(NumeroB);     //Se debe pasar a entero, del prompt viene como String
+
+
 
 let resultado = "0";
 
