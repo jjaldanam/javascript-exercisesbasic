@@ -1,10 +1,10 @@
 do{
     NumeroA =prompt("Primer número a Comparar: ");
-}while (isNaN(NumeroA));
+}while (isNaN(NumeroA) || NumeroA <= 0);
 
 do{
     NumeroB =prompt("Segundo número a comparar: ");
-}while (isNaN(NumeroB));
+}while (isNaN(NumeroB) || NumeroB <= 0);
 
 
 
@@ -14,6 +14,8 @@ NumeroB=parseFloat(NumeroB);     //Se debe pasar a entero, del prompt viene como
 
 
 let resultado = "0";
+
+
 
 if (NumeroA > NumeroB)
     resultado = "El mayor es: "+NumeroA;
