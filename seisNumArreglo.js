@@ -8,3 +8,9 @@ do {
 }while ( arreglo.length < 6)
 
 console.log(arreglo);
+
+document.write("<H1>Arreglo de 6 núemros</H1>");
+for (let numero of arreglo) {
+    document.write("<P>Número almacenado: "+numero+"<BR />");
+}
+
