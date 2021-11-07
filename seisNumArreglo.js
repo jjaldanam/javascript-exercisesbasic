@@ -7,6 +7,10 @@ do {
     }
 }while ( arreglo.length < 6)
 
+
+arreglo.sort((a,b)=>a-b);   // Organiza el arreglo de números
+
+
 console.log(arreglo);
 
 document.write("<H1>Arreglo de 6 núemros</H1>");
